@@ -1,0 +1,285 @@
+/*Heading info*/
+.page-title {
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    padding-top: 1em;
+}
+
+
+/*Featured Monsters*/
+.featured {
+    margin: 0;
+    background-color: black;
+    background-size: cover;
+}
+
+
+
+.featured h1{
+    margin-top: 0;
+    padding-bottom: 1%;
+    color: white !important;
+    font-weight: bold;
+    background-image:linear-gradient(gray, rgba(0,0,0,0));
+}
+
+.featured-monsters {
+    width: 100%;
+    margin: 0;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.spiel {
+    padding: 2% 10%;
+    background-color: #e31437;
+    color: white;
+    font-size: 130%;
+}
+
+.spiel p {
+    text-align: center;
+}
+
+.swiper-container {
+    height:300px;
+    margin: 0;
+    border: 0;
+}
+.swiper-slide { 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-color: white;
+    height: 30px;
+
+}
+
+
+.monName {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    line-height: 3.5em;
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}
+
+
+/*Search control pannels*/
+.search-controls {
+    padding: 0 5%;
+}
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.general, .stats {
+    flex-grow: 1;
+	padding: 10px;
+    background-color: whitesmoke;
+}
+
+.general h3, .stats h3{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding:0;
+    color: white !important;
+    padding-left: 5%;
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-size: 170% !important;
+}
+
+.stats .controls{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+input[type=range] {
+    height: 50%;
+}
+
+label[for="chalRat"]{
+    font-size: 100% !important;
+}
+
+.control {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.control input {
+    width: 40%;
+}
+
+.control label {
+    font-size: 80%;
+}
+
+.submit-section {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.btn-full{
+    background-color: #e31437;
+    color: white;
+    font-size: 1em;
+    padding: 1% 1.5%;
+    border-radius: 200px;
+    border: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: background-color 0.2s;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: #ff3657;
+    
+}
+
+
+
+
+/*Search Results*/
+
+.results {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.card {
+    width: 250px;
+    height: stretch;
+    margin: 5px;
+    background-color:whitesmoke;
+}
+
+.card:hover{
+    background-color:gainsboro;
+}
+
+.card-title{
+    color: white !important;
+    font-weight: 900;
+}
+
+.name{
+    background-color: crimson !important;
+    color: white !important;
+    font-weight: 700;
+    text-align: center;
+    font-size: 120% !important;
+    padding: 0 5px;
+}
+
+.card-reveal{
+    background-color: gainsboro !important;
+}
+
+.moreTitle{
+    background-color: #e31437;
+    padding: 5px 15px;
+    color: white;
+}
+
+.traits{
+    background-color: white;
+    padding: 15px;
+    height: 70%;
+    overflow: scroll;
+}
+
+
+.img-div {
+    background-size: 90%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60%;
+}
+
+.img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+.more-option {
+    width: 100%;
+    text-align: center;
+}
+
+.featured h1{
+    color: white;
+    text-align: center;
+    font-size: 180%;
+    margin: 0;
+}
+
+.page-title h1{
+    color: #e31437;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 3.5%;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    padding: 0;
+    z-index: 500;
+}
+
+.navlogo {
+    width: 100px;
+    margin-bottom: 0px;
+    margin-left: 2%;
+}
+
+.side-nav {
+    float: right;
+    list-style: none;
+    margin:0px;
+    font-family: 'Baloo Da 2';
+    font-size: 1em;
+}
+
+.side-nav li{
+    display: inline-block;
+    margin:0px;
+    transition: background-color 0.5s box-shadow 0.5s;
+    height: 100%;
+    padding: 0.8em;
+}
+
+.side-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.side-nav li:hover,
+.side-nav li:active{
+    background-color: #ec2127;
+    box-shadow: inset 0px 12px 0px -9px rgba(255,255,255,1);
+    transition: background-color 0.5s box-shadow 0.5s;
+}
+
+a {
+    margin: 0px;
+}

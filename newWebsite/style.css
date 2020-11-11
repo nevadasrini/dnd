@@ -1,0 +1,796 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+html{
+    background-color: white;
+    font-family: 'Baloo Da 2', cursive, 'Helvetica Neue', Arial;
+    font-size: 20px;
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+
+header {
+    background-image: linear-gradient(#000, rgba(0, 0, 0, 0.65)), url(Pics/dnd2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+h1{
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 270%;
+}
+
+h3{
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top:10px;
+    margin-top:0;
+}
+
+.text {
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.intro .text {
+    background-color: rgba(0, 0, 0, 0.31);
+    width: 50%;
+    color: white;
+    float: left;
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    border-radius: 200px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+    transition: background-color 0.5s, border 0.5s, color 0.5s;
+    box-shadow: 13px 18px 23px -2px rgba(0,0,0,0.75);
+}
+
+.btn:hover,
+.btn:active{
+    transform: translate(0, 3px);
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #ec2127;
+    color: white;
+    border: 1px solid #ec2127;
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    color: #ec2127;
+    border: 1px solid #ec2127;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    background-color: #8a0c10;
+    border: 1px solid #8a0c10;
+    
+}
+
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: #8a0c10;
+    border: 1px solid #8a0c10;
+    color: white;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+nav{
+    margin: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 10px;
+    transition: border-bottom 0.3s;
+}
+
+
+
+.main-nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #ec2127;
+}
+
+.intro{
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.87)), url(Pics/dnd3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.row{
+    margin: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.welcome {
+    margin: 0;
+    background-color: #ec2127;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 60px;
+    box-shadow: 13px 18px 23px -2px rgba(0,0,0,0.75);
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 120%;
+}
+
+.intro-text{
+    margin:0;
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+h4{
+    margin: 0;
+}
+h2 {
+    color: white;
+}
+
+.blackbar {
+    margin:0;
+    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.95);
+    border:0;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.text h2 {
+    text-transform: uppercase;
+}
+
+.picture {
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+}
+
+.gameplay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.49), #000), url(Pics/dnd5.jpg);
+    margin: 0;
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+
+.absblock {
+    position: absolute;
+    margin:0px;
+}
+
+.howtoplay {
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 3%;
+    padding: 10px 10px;
+    width: 35%;
+    text-align: center;
+    align-content: center;
+    float: left;
+}
+
+
+p {
+    margin: 0;
+}
+
+.explanation {
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.68);
+    top:4.5em;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+    height: 550px;
+    word-spacing: 2px;
+    align-content: center;
+}
+
+.banner {
+    position: absolute;
+    font-size: 180%;
+    background-color: #ec2127;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    width: 100%;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.rulebook-btn {
+    width: 40%;
+    margin-top:20px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: absolute;
+    margin-left: 25%;
+    border-radius: 200px;
+    background-color: #ec2127;
+    transition: background-color 0.5s;
+
+}
+
+.rulebook-btn:link,
+.rulebook-btn:visited {
+    background-color: #ec2127;
+    transition: background-color 0.5s;
+}
+
+.rulebook-btn:hover,
+.rulebook-btn:active {
+    background-color: #8a0c10;
+    transform: translate(0, 3px)
+}
+
+.rulebook {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.pic {
+    position:absolute;
+    margin-left: 42%;
+    margin-top: 18%;
+}
+
+.dice {
+    height:200px;
+    width: auto;
+}
+
+.requirements {
+    position:absolute;
+    margin-top: 40px;
+    margin-left: 58%;
+    padding: 10px 10px;
+    width: 35%;
+    text-align: center;
+    align-content: center;
+    float: left;
+}
+
+
+
+footer {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 90px;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+    height: 14%;
+}
+
+.icons {
+    height: 70px;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.iconsinfooter {
+    align-content: center;
+    margin-top: 0;
+    margin-bottom:  0;
+    margin-left: 40%;
+    height: 12%;
+    position: absolute;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    padding: 0;
+    z-index: 500;
+}
+
+.navlogo {
+    width: 100px;
+    margin-bottom: 0px;
+    margin-left: 2%;
+}
+
+.side-nav {
+    float: right;
+    list-style: none;
+    margin:0px;
+}
+
+.side-nav li{
+    display: inline-block;
+    margin:0px;
+    transition: background-color 0.5s box-shadow 0.5s;
+    height: 100%;
+    padding: 0.8em;
+}
+
+.side-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+
+.side-nav li:hover,
+.side-nav li:active{
+    background-color: #ec2127;
+    box-shadow: inset 0px 12px 0px -9px rgba(255,255,255,1);
+    transition: background-color 0.5s box-shadow 0.5s;
+}
+
+a {
+    margin: 0px;
+}
+
+.test {
+    background-image: url(Pics/dnd1.jpg);
+    height: 2000px;
+    margin: 0px;
+}
+.char-header {
+    background-image: url(classes.png);
+    margin:0;
+    position: absolute;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.62), white)
+}
+
+
+
+.char-h1 {
+    font-size: 300px;
+}
+
+.mySlides {
+    display: none;
+    width:100%;
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.container {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+
+.classbox {
+    z-index: 400;
+    position: absolute;
+    top: 17%;
+    left: 10%;
+    transform: translate(0, -300%);
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+
+.classes {
+    position: absolute;
+    width: 100%;
+    background: rgba(236, 33, 39, 0.73);
+    color: white;
+    font-size: 200%;
+    padding: 0.1% 3%;
+    top: 25%;
+}
+
+.explain {
+    background: rgba(0, 0, 0, 0.64);
+    width: 100%;
+    margin-top: 14.7%;
+    position: absolute;
+    color: white;
+    padding: 2% 4%;
+}
+
+.btn-char {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+
+
+
+.class-slide {
+    height: 90vh;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+
+.class-img{
+    position: absolute;
+    
+    box-shadow: -24px 25px 32px 6px rgba(0,0,0,0.75);
+    float: left;
+    display: block;
+    background: rgba(255, 255, 255, 0.54);
+}
+
+
+
+.side-explain {
+    margin: 0;
+    position: absolute;
+    
+    transform: translate(0, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: left;
+    width: 50%;
+    padding: 2%;
+    word-spacing: 2px;
+}
+
+.class-card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+input, .class-toggle {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    outline: none;
+    z-index: 10;
+    margin:0;
+    padding: 0;
+}
+
+input {
+    opacity: 0;
+    margin:0;
+    padding: 0;
+}
+
+.class-card input {
+    opacity: 0;
+    margin:0;
+}
+
+.class-toggle {
+    pointer-events: none;
+    border-radius: 50%;
+    background: #fff;
+    transition: 0.5s;
+    text-align: center;
+    line-height: 50px;
+    font-size: 36px;
+    box-shadow: 0 0 0 0px #ec2127;
+    margin: 0;
+}
+
+input:checked ~ .class-toggle
+{
+    box-shadow: 0 0 0 500px #ec2127;
+    transform: rotate(225deg);
+}
+.imgBox {
+    margin: 0;
+    padding: 0;
+}
+
+
+.nopad {
+    margin: 0;
+    padding: 0;
+}
+
+.imgBox, .class-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.class-content{
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 11;
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: 0;
+    color: white;
+}
+
+input:checked ~ .class-content{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+.slide1 {
+    top: 100vh;
+    background-image: url(Pics/blurbarb.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.side-explain h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+
+.classimg {
+    height: 100%;
+    width: 100%;
+}
+
+.slide2 {
+    top: 190vh;
+    background-image: url(Pics/bardbg.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.float-left {
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.type1 {
+    left: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.float-right {
+    float: right;
+    right: 10%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.slide3 {
+    top: 280vh;
+        background-image: url(Pics/clericbg.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.slide4 {
+    top: 370vh;
+        background-image: url(Pics/druidbg.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+
+}
+
+b {
+    margin: 0;
+}
+
+.slide5 {
+    top: 460vh;
+        background-image: url(Pics/blurbarb.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.slide6 {
+    top: 549vh;
+        background-image: url(Pics/bardbg.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+
+}
+
+.slide7 {    
+    top: 639vh;
+        background-image: url(Pics/clericbg.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.slide8 {
+    top: 729vh;
+        background-image: url(Pics/roguebg.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.slide9 {
+    top: 819vh;
+    background-image: url(Pics/blurbarb.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.slide10 {
+    top: 909vh;
+        background-image: url(Pics/bardbg.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.slide11 {
+     top: 999vh;
+        background-image: url(Pics/blurbarb.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+}
+
+.slide12 {
+    top: 1089vh;
+            background-image: url(Pics/clericbg.jpg), linear-gradient(to right, rgba(0, 0, 0, 0.57), #fff)
+
+}
+
+.slide13 {
+    top:1179vh;
+    margin:0;
+    height: 14%;
+}
+
+.slide14 {
+    top:909vh;
+    margin:0;
+    height: 14%;
+}
+
+.footer a {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+
+
+.placeholder {
+    height: 0;
+    position: absolute;
+    top: 90vh;
+}
+
+.arrow {
+    position: absolute;
+    float: right;
+    right: 2%;
+    height: 80px;
+    width: auto;
+    top: 85%;
+}
+
+.placeholder2 {
+    height: 0;
+    position: absolute;
+    top: 180vh;
+}
+
+.placeholder3 {
+    height: 0;
+    position: absolute;
+    top: 270vh;
+}
+
+.placeholder4 {
+    height: 0;
+    position: absolute;
+    top: 360vh;
+}
+
+.placeholder5 {
+    height: 0;
+    position: absolute;
+    top: 450vh;
+}
+
+.placeholder6 {
+    height: 0;
+    position: absolute;
+    top: 540vh;
+}
+
+.placeholder7 {
+    height: 0;
+    position: absolute;
+    top: 630vh;
+}
+
+.placeholder8 {
+    height: 0;
+    position: absolute;
+    top: 720vh;
+}
+
+.placeholder9 {
+    height: 0;
+    position: absolute;
+    top: 810vh;
+}
+
+.placeholder10 {
+    height: 0;
+    position: absolute;
+    top: 900vh;
+}
+
+.placeholder11 {
+    height: 0;
+    position: absolute;
+    top: 990vh;
+}
+
+.placeholder12 {
+    height: 0;
+    position: absolute;
+    top: 1080vh;
+}

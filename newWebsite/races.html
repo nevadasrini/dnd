@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dungeons & Dragons</title>
+        <meta name="description" content="An interactive getting started guide for D&D.">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar">
+            <a href="#"><img src="Pics/logo.png" alt="DND logo" class="navlogo"></a>
+            <ul class="side-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="monsters.html">Monsters</a></li>
+                <li><a href="races.html">Races</a></li>
+            </ul>
+        </nav>
+        <!--HEADER-->
+        <div class="char-header">
+            <!--SLIDESHOW USING JS-->
+            <img class="mySlides" src="Pics/orc.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/dragonborn.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/rando.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/human.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/elf.jpg" style="width:100%">
+            <!--INFO BOX-->
+            <div class="classbox">
+                <div class="classes">RACES</div>
+                <div class="explain">
+                    Your choice of character race provides you with a basic set of advantages and special abilities. If you’re a fighter, are you a dwarf monster-slayer, an elf blademaster, or a dragonborn gladiator? If you’re a wizard, are you a human spell-for-hire or a tiefling conjurer? Your character race not only affects your ability scores and powers but also provides the first cues for building your character’s story. <br>
+                    <!--SCROLLS TO FIRST SLIDE-->
+                    <a href="#character" class="btn btn-full btn-char" >Explore</a>
+                    <!--LINK TO EXTERNAL QUIZ-->
+                    <a href="https://uquiz.com/CA7dxg/what-is-your-dd-race" class="btn btn-ghost btn-char" target="_blank">Take the quiz!</a>
+                </div>
+            </div>
+        </div>
+        
+    <!--DRAGONBORN.....................................................................................-->
+    <div class="placeholder" id="character"></div>    
+    <div class="class-slide slide1">
+            <!--CARD WITH REVEAL-->
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <!--CLICK TO EXPAND-->
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/dragRace.png" class="nopad classimg"></div>
+                    <!--TAGLINE AND STATS-->
+                    <div class="class-content">
+                        Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. <br><br>
+                        <b>Primary Ability:</b> +2 Strength, +1 Charisma <br>
+                        <b>Other traits:</b> Breath Weapon, Damage Resistance<br>
+                    </div>
+                </div>
+            </div>
+            <!--BRIEF DESCRIPTION-->
+            <div class="side-explain float-right">
+                <h2>DRAGONBORN</h2>
+                <p> Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.</p>   
+            </div>
+            <!--ARROW TAKES YOU TO NEXT SLIDE-->
+            <a href="#slide2"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+    <!--DWARF.....................................................................................-->
+    <div class="placeholder2" id="slide2"></div>
+        <div class="class-slide slide2">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/dwarfRace.png" class="nopad classimg"></div>
+                    <div class="class-content">
+                        Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. <br><br>
+                        <b>Primary Ability:</b> +2 Constitution <br>
+                        <b>Other Traits:</b> DarkVision, Dwarven Combat Training, Stonecunning<br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>DWARF</h2>
+                <p> Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk. Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth. Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully.                 </p> 
+            </div>
+            <a href="#slide3"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--Elf.....................................................................................-->
+        <div class="placeholder3" id="slide3"></div>
+        <div class="class-slide slide3">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/elfRace.png" class="nopad classimg"></div>
+                    <div class="class-content">
+                        Elves are magical people of otherworldly grace, living in the world but not entirely part of it <br><br>
+                        <b>Primary Ability:</b> +2 Dexterity <br>
+                        <b>Other traits:</b> Darkvision, Keen Senses, Fey Ancestry, Trance <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>ELF</h2>
+                <p> With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 100 to 145 pounds. Males and females are about the same height, and males are only marginally heavier than females. Like the branches of a young tree, elves are flexible in the face of danger. They trust in diplomacy and compromise to resolve differences before they escalate to violence. They have been known to retreat from intrusions into their woodland homes, confident that they can simply wait the invaders out. But when the need arises, elves reveal a stern martial side, demonstrating skill with sword, bow, and strategy.
+                </p>   
+            </div>
+            <a href="#slide4"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+    <!--Hafling.....................................................................................-->
+    <div class="placeholder4" id="slide4"></div>    
+    <div class="class-slide slide4">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/halfRace.png" class="nopad classimg"></div>
+                    <div class="class-content">
+                        The diminutive halflings survive in a world of larger creatures by avoiding notice or, barring that, avoiding offense. <br><br>
+                        <b>Primary Ability:</b> +2 Dexterity<br>
+                        <b>Other traits:</b> Lucky, Brave, Halfling Nibleness<br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>HALFLING</h2>
+                <p>The comforts of home are the goals of most halflings’ lives: a place to settle in peace and quiet, far from marauding monsters and clashing armies; a blazing fire and a generous meal; fine drink and fine conversation. Though some halflings live out their days in remote agricultural communities, others form nomadic bands that travel constantly, lured by the open road and the wide horizon to discover the wonders of new lands and peoples. But even these wanderers love peace, food, hearth, and home, though home might be a wagon jostling along a dirt road or a raft floating downriver.</p> 
+            </div>
+            <a href="#slide5"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--Human.....................................................................................-->
+        <div class="placeholder5" id="slide5"></div>
+        <div class="class-slide slide5">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/humanRace.png" class="nopad classimg"></div>
+                    <div class="class-content">
+                        Humans are the most adaptable and ambitious people among the common races.  <br><br>
+                        <b>Primary Ability:</b> +1 to All Ability Scores<br>
+                        <b>Other traits:</b> Extra Language <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>HUMAN</h2>
+                <p> In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.                    </p>   
+            </div>
+            <a href="#slide6"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--Gnome.....................................................................................-->
+        <div class="placeholder6" id="slide6"></div>
+        <div class="class-slide slide6">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/gnomeRace.png" class="nopad classimg"></div> 
+                    <div class="class-content">
+                        A gnome's energy and enthusiasm for living shines through every inch of his or her tiny body.<br><br>
+                        <b>Primary Ability:</b> +2 Intelligence<br>
+                        <b>Other traits:</b> Darkvisiono, Gnome Cunning<br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>GNOME</h2>
+                <p>A constant hum of busy activity pervades the warrens and neighborhoods where gnomes form their close-knit communities. Louder sounds punctuate the hum: a crunch of grinding gears here, a minor explosion there, a yelp of surprise or triumph, and especially bursts of laughter. Gnomes take delight in life, enjoying every moment of invention, exploration, investigation, creation, and play. A gnome’s personality is writ large in his or her appearance. A male gnome’s beard, in contrast to his wild hair, is kept carefully trimmed but often styled into curious forks or neat points. A gnome’s clothing, though usually made in modest earth tones, is elaborately decorated with embroidery, embossing, or gleaming jewels.                  </p> 
+            </div>
+            <a href="#slide7"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--Half-Elf.....................................................................................-->
+        <div class="placeholder7" id="slide7"></div>
+        <div class="class-slide slide7">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/halfElfRace.png"s class="nopad classimg"></div>
+                    <div class="class-content">
+                        Half-elves combine what some say are the best qualities of their elf and human parents. <br><br>
+                        <b>Primary Ability:</b> +2 Charisma, +1 to Two Other Ability Scores <br>
+                        <b>Other Traits</b> Darkvision, Fey Ancestry, Skill Versitility <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>HALF-ELF</h2>
+                <p> Walking in two worlds but truly belonging to neither, half-elves combine what some say are the best qualities of their elf and human parents: human curiosity, inventiveness, and ambition tempered by the refined senses, love of nature, and artistic tastes of the elves. Some half-elves live among humans, set apart by their emotional and physical differences, watching friends and loved ones age while time barely touches them. Others live with the elves, growing restless as they reach adulthood in the timeless elven realms, while their peers continue to live as children. Many half-elves, unable to fit into either society, choose lives of solitary wandering or join with other misfits and outcasts in the adventuring life.                  </p>   
+            </div>
+            <a href="#slide8"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--Half-Orc.....................................................................................-->
+        <div class="placeholder8" id="slide8"></div>
+        <div class="class-slide slide8">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/halforcRace.png" class="nopad classimg"></div> 
+                    <div class="class-content">
+                        Half-orcs' grayish pigmentation, sloping foreheads, prominent teeth, and towering builds make their orcish heritage clear. <br><br>
+                        <b>Primary Ability:</b> +2 Strength, +1 Constitution <br>
+                        <b>Other traits:</b> Darkvision, Menacing, Relentless<br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>HALF-ORC</h2>
+                <p>Whether united under the leadership of a mighty warlock or having fought to a standstill after years of conflict, orc and human tribes sometimes form alliances, joining forces into a larger horde to the terror of civilized lands nearby. When these alliances are sealed by marriages, half-orcs are born. Some half-orcs rise to become proud chiefs of orc tribes, their human blood giving them an edge over their full-blooded orc rivals. Some venture into the world to prove their worth among humans and other more civilized races. Many of these become adventurers, achieving greatness for their mighty deeds and notoriety for their barbaric customs and savage fury.</p> 
+            </div>
+            <a href="#slide9"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--Tiefling.....................................................................................-->
+        <div class="placeholder9" id="slide9"></div>
+        <div class="class-slide slide9">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/tieRace.png"s class="nopad classimg"></div>
+                    <div class="class-content">
+                        To be greeted with stares and whispers, to suffer violence and insult on the street, to see mistrust and fear in every eye: this is the lot of the tiefling. <br><br>
+                        <b>Primary Ability:</b> +2 Charisma, +1 Intelligence<br>
+                        <b>Other traits:</b> Darkvision, Hellish Resistance <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>Tiefling</h2>
+                <p> A pact struck generations ago infused the essence of Asmodeus—overlord of the Nine Hells—into their bloodline. Their appearance and their nature are not their fault but the result of an ancient sin, for which they and their children and their children’s children will always be held accountable. ieflings subsist in small minorities found mostly in human cities or towns, often in the roughest quarters of those places, where they grow up to be swindlers, thieves, or crime lords. Sometimes they live among other minority populations in enclaves where they are treated with more respect. Lacking a homeland, tieflings know that they have to make their own way in the world and that they have to be strong to survive. </p>   
+            </div>
+		</div>
+        
+        <!--FOOTER..........-->
+        
+        <footer class="slide14">
+            <div class="iconsinfooter">
+            <a href="https://www.instagram.com/explore/tags/dnd/" target="_blank"><img src="Pics/instagram.png" alt="insta" class="icons"></a>
+            <a href="https://twitter.com/Wizards_DnD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="Pics/twitter.png" alt="twitter" class="icons"></a>
+            <a href="https://www.youtube.com/channel/UCi-PULMg2eD_v5AO0PlW4sg" target="_blank"><img src="Pics/yt.png" alt="youtube" class="icons"></a>
+            </div>
+        </footer>
+      
+            
+<!--SCRIPT.........................................................................................-->
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+        </script>
+    </body>
+</html>

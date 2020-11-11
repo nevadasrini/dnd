@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <title>Dungeons & Dragons</title>
+        <meta name="description" content="An interactive getting started guide for D&D.">
+        <link rel="stylesheet" href="monsters.css">
+        <link rel="stylesheet" href="general.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+	
+    <body>
+        <!--NAVBAR--->
+        <nav class="navbar">
+            <a href="#"><img src="Pics/logo.png" alt="DND logo" class="navlogo"></a>
+            <ul class="side-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="monsters.html">Monsters</a></li>
+                <li><a href="races.html">Races</a></li>
+            </ul>
+        </nav>
+        <section class="page-content">
+            <div class="page-title">
+                <h1>MONSTERS</h1>
+            </div>
+            <section class="featured">
+                <div class="featured-monsters">
+                    <!--MONSTER GALLERY PREVIEW -->
+                    <div class="swiper-container"> 
+                        <div class="swiper-button-next">
+                        </div>
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide" style="background-image:url(monsterDemoPics/mon6.jpg)">
+                                <div class="monName">
+                                    <h3 style="color: black">BEHOLDER</h3>
+                                </div>
+                            </div>
+                          <div class="swiper-slide" style="background-image:url(monsterDemoPics/mon7.jpg)">
+                                <div class="monName">
+                                    <h3 style="color: black">IMP</h3>
+                                </div>
+                            </div>
+                          <div class="swiper-slide" style="background-image:url(monsterDemoPics/mon8.jpg)">
+                                <div class="monName">
+                                    <h3 style="color: black">OGRE</h3>
+                                </div>
+                            </div>
+                          <div class="swiper-slide" style="background-image:url(monsterDemoPics/mon9.jpg)">
+                                <div class="monName">
+                                    <h3 style="color: black">HOOK HORROR</h3>
+                                </div>
+                            </div>
+                          <div class="swiper-slide" style="background-image:url(monsterDemoPics/mon10.png)">
+                                <div class="monName">
+                                    <h3 style="color: black">BUELETTE</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="spiel">
+                    <p>You can't have Dungeons & Dragons without monsters! So it's important that you select the right monsters for the challenge.</p>
+                </div>
+            </section>
+            <!--SEARCH-->
+            <section class="search-controls">
+                <h1>Search</h1>
+                <form action="javascript:void(0);" onsubmit = "return startPg();">
+                    <div class="general">
+                        <div><h3 style="color:black">General</h3></div>
+                        <div class= "controls gen">
+                            <div class="control input-field">
+                                <label for="monName">Name:</label>
+                                <input type="text" name="monName" class="txtBox">
+                            </div>
+                            <div class="control range-field">
+                                <label for="chalRat">Challenge Rating:</label>
+                                <input type="range" name="chalRat" class="slider" value="15" min="0" max="30">
+                            </div>
+                            <div class="control input-field">
+                                <label for="armClass">Armor Class:</label>
+                                <input type="number" name="armClass" class="txtBox">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div><h3 style="color:black">Stats</h3></div>
+                        <div class="controls sta">
+                            <div class="control input-field">
+                                <label for="hitPts">Hit Points:</label>
+                                <input type="number" name="hitPts" class="txtBox">
+                            </div>
+                            <div class="control input-field">
+                                <label for="speed">Speed:</label>
+                                <input type="number" name="speed" class="txtBox">
+                            </div>
+                            <div class="control input-field">
+                                <label for="strength">Strength:</label>
+                                <input type="number" name="strength" class="txtBox">
+                            </div>
+                            <div class="control input-field">
+                                <label for="dex">Dexterity:</label>
+                                <input type="number" name="dex" class="txtBox" >
+                            </div>
+                            <div class="control input-field">
+                                <label for="intel">Intelligence:</label>
+                                <input type="number" name="intel" class="txtBox" >
+                            </div>
+                            <div class="control input-field">
+                                <label for="wis">Wisdom:</label>
+                                <input type="number" name="wis" class="txtBox" >
+                            </div>
+                            <div class="control input-field">
+                                <label for="constit">Constitution:</label>
+                                <input type="number" name="constit" class="txtBox" >
+                            </div>
+                            <div class="control input-field">
+                                <label for="charisma">Charisma:</label>
+                                <input type="number" name="charisma" class="txtBox" >
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript" src="monsters.js"></script>
+                    <div class="submit-section">
+                        <button class="btn-full" onclick="startPg();">Search</button>
+                    </div>
+                </form>
+            </section>
+            <!--RESULTS-->
+            <section class="results">
+                <div class="card">
+                    <div class="img-div card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="Pics/gif.gif">
+                    </div>
+                    <div class="brief card-content">
+                        <div class="name card-title activator">Monster Name</div>
+                        <p class="desc activator">Brif Mon Description</p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="name card-title text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                       <p class="moreTitle"></p> 
+                        <p class="traits"></p>
+                    </div>
+                </div>
+            </section>
+            <div class="more-option">
+                    <p><em>~~~</em></p>
+            </div>
+            
+            <footer>
+                <div id="snap">
+                    <a href="https://www.instagram.com/explore/tags/dnd/" target="_blank"><img src="Pics/instagram.png" alt="insta" class="icons"></a>
+                </div>
+                <div id="twitter">
+                    <a href="https://twitter.com/Wizards_DnD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="Pics/twitter.png" alt="twitter" class="icons"></a>
+                </div>
+                <div id="youtube">
+                    <a href="https://www.youtube.com/channel/UCi-PULMg2eD_v5AO0PlW4sg" target="_blank"><img src="Pics/yt.png" alt="youtube" class="icons"></a>
+                </div>
+            </footer>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!--Featured monster code-->
+        <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                          effect: 'coverflow',
+                            navigation: {
+                                        nextEl: '.swiper-button-next',
+                                        prevEl: '.swiper-button-prev',
+                                      },
+                          grabCursor: true,
+                          centeredSlides: true,
+                          slidesPerView: 3,
+                        loop: true,
+                        pagination: {
+                                    el: '.swiper-pagination',
+                                    type: 'bullets',
+                                  },
+                          coverflowEffect: {
+                            rotate: 50,
+                            stretch: 0,
+                            depth: 100,
+                            modifier: 1,
+                            slideShadows : true,
+                          },
+                          pagination: {
+                            el: '.swiper-pagination',
+                          },
+                            autoplay: {
+                                        delay: 3000,
+                                        disableOnInteraction: false,
+                                    },
+                            
+                        });
+        </script>
+		<script type="text/javascript" src="monsters.js"></script>
+		
+    </body>
+    
+</html>

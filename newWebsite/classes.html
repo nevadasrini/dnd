@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dungeons & Dragons</title>
+        <meta name="description" content="An interactive getting started guide for D&D.">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar">
+            <a href="#"><img src="Pics/logo.png" alt="DND logo" class="navlogo"></a>
+            <ul class="side-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="monsters.html">Monsters</a></li>
+                <li><a href="races.html">Races</a></li>
+            </ul>
+        </nav>
+        <!--HEADER-->
+        <div class="char-header">
+            <!--SLIDESHOW USING Js-->
+            <img class="mySlides" src="Pics/barbarian.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/cleric.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/druid.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/rogue.png" style="width:100%">
+            <img class="mySlides" src="Pics/archer2.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/bard.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/wizard.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/monk.jpg" style="width:100%">
+            <img class="mySlides" src="Pics/wizardbg.jpg" style="width:100%">
+
+            <!--INFO BOX-->
+            <div class="classbox">
+                <div class="classes">CLASSES</div>
+                <div class="explain">
+                    There are 12 basic classes in D&D: barbarian, bard, cleric, druid, fighter, monk, paladin, ranger, rogue, sorcerer, warlock and wizard. A character's capabilities, strengths, and weaknesses are largely defined by its class. Choosing a class is one of the first steps you will will take to create your D&D character--make sure it is one that fits your character. <br>
+                    <!--SCROLLS TO FIRST SLIDE-->
+                    <a href="#character" class="btn btn-full btn-char">Explore</a>
+                    <!--LINK TO EXTERNAL QUIZ-->
+                    <a href="http://www.easydamus.com/character.html" class="btn btn-ghost btn-char" target="_blank">Take the quiz!</a>
+                </div>
+            </div>
+        </div>
+        <div class="placeholder" id="character"></div>
+    <!--BARBARIAN.....................................................................................-->
+        <div class="class-slide slide1">
+            <!--CARD REVEAL-->
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <!--CLICK TO EXPAND-->
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/barbclass.png" class="nopad classimg"></div>
+                    <!--TAGLINE AND STATS-->
+                    <div class="class-content">
+                        A fierce warrior of primitive background who can enter a battle rage. <br><br>
+                        <b>Hit Die:</b> d12 <br>
+                        <b>Primary Ability:</b> Strength <br>
+                        <b>Saves:</b> Strength & Constitution <br>
+                    </div>
+                </div>
+            </div>
+            <!--BRIEF DESCRIPTION-->
+            <div class="side-explain float-right">
+                <h2>BARBARIAN</h2>
+                <p> Barbarians are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea.
+
+For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.                   </p>   
+            </div>
+            <!--ARROW TAKES YOU TO NEXT SLIDE-->
+            <a href="#slide2"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+    <!--BARD.....................................................................................-->
+        <div class="placeholder2" id="slide2"></div>
+        <div class="class-slide slide2">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/bardclass.png" class="nopad classimg"></div>
+                    <div class="class-content">
+                        An inspiring magician whose power echoes the music of creation. <br><br>
+                        <b>Hit Die:</b> d8 <br>
+                        <b>Primary Ability:</b> Charisma <br>
+                        <b>Saves:</b> Dexterity & Charisma <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>BARD</h2>
+                <p> In the worlds of D&D, words and music are not just vibrations of air, but vocalizations with power all their own. The bard is a master of song, speech, and the magic they contain. Bards say that the multiverse was spoken into existence, that the words of the gods gave it shape, and that echoes of these primordial Words of Creation still resound throughout the cosmos. The music of bards is an attempt to snatch and harness those echoes, subtly woven into their spells and powers.                  </p> 
+            </div>
+            <a href="#slide3"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--CLERIC.....................................................................................-->
+        <div class="placeholder3" id="slide3"></div>
+        <div class="class-slide slide3">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/clerclass.png" class="nopad classimg"></div>
+                    <div class="class-content">
+                        A priestly champion who wields divine magic in service of a higher power <br><br>
+                        <b>Hit Die:</b> d8 <br>
+                        <b>Primary Ability:</b> Wisdom <br>
+                        <b>Saves:</b> Wisdom & Charisma <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>CLERIC</h2>
+                <p> Clerics are intermediaries between the mortal world and the distant planes of the gods. As varied as the gods they serve, clerics strive to embody the handiwork of their deities. No ordinary priest, a cleric is imbued with divine magic. 
+                Divine magic, as the name suggests, is the power of the gods, flowing from them into the world. Clerics are conduits for that power, manifesting it as miraculous effects. The gods don’t grant this power to everyone who seeks it, but only to those chosen to fulfill a high calling.</p>   
+            </div>
+            <a href="#slide4"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+    <!--DRUID.....................................................................................-->
+        <div class="placeholder4" id="slide4"></div>
+        <div class="class-slide slide4">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/druidclass.png" class="nopad classimg"></div>
+                    <div class="class-content">
+                        A priest of the Old Faith, wielding the powers of nature and adopting animal forms <br><br>
+                        <b>Hit Die:</b> d8 <br>
+                        <b>Primary Ability:</b> Wisdom <br>
+                        <b>Saves:</b> Intelligence & Wisdom <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>DRUID</h2>
+                <p>Druids revere nature above all, gaining their spells and other magical powers either from the force of nature itself or from a nature deity. Many druids pursue a mystic spirituality of transcendent union with nature rather than devotion to a divine entity, while others serve gods of wild nature, animals, or elemental forces. The ancient druidic traditions are sometimes called the Old Faith, in contrast to the worship of gods in temples and shrines. Druids claim no mastery over nature; they see themselves as extensions of its will.                  </p> 
+            </div>
+            <a href="#slide5"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--FIGHTER.....................................................................................-->
+        <div class="placeholder5" id="slide5"></div>
+        <div class="class-slide slide5">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/fighter.png" class="nopad classimg"></div>
+                    <div class="class-content">
+                        A fierce warrior of primitive background who can enter a battle rage. <br><br>
+                        <b>Hit Die:</b> d10 <br>
+                        <b>Primary Ability:</b> Strength or Dexterity <br>
+                        <b>Saves:</b> Strength & Constitution <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>FIGHTER</h2>
+                <p> Fighters learn the basics of all combat styles. Every fighter can swing an axe, fence with a rapier, wield a longsword or a greatsword, use a bow, and even trap foes in a net with some degree of skill. Likewise, a fighter is adept with shields and every form of armor. Beyond that basic degree of familiarity, each fighter specializes in a certain style of combat. Some concentrate on archery, some on fighting with two weapons at once, and some on augmenting their martial skills with magic.                    </p>   
+            </div>
+            <a href="#slide6"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--MONK.....................................................................................-->
+        <div class="placeholder6" id="slide6"></div>
+        <div class="class-slide slide6">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/monkclass.png" class="nopad classimg"></div> 
+                    <div class="class-content">
+                        A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection. <br><br>
+                        <b>Hit Die:</b> d8 <br>
+                        <b>Primary Ability:</b> Dexterity & Wisdom <br>
+                        <b>Saves:</b> Strength & Dexterity <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>MONK</h2>
+                <p>Monks make careful study of a magical energy that most monastic traditions call ki. This energy is an element of the magic that suffuses the multiverse—specifically, the element that flows through living bodies. Monks harness this power within themselves to create magical effects and exceed their bodies’ physical capabilities, and some of their special attacks can hinder the flow of ki in their opponents. Using this energy, monks channel uncanny speed and strength into their unarmed strikes.                  </p> 
+            </div>
+            <a href="#slide7"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--PALADIN.....................................................................................-->
+        <div class="placeholder7" id="slide7"></div>
+        <div class="class-slide slide7">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/paladin.png"s class="nopad classimg"></div>
+                    <div class="class-content">
+                        A holy warrior bound to a sacred oath. <br><br>
+                        <b>Hit Die:</b> d10 <br>
+                        <b>Primary Ability:</b> Strength & Charisma <br>
+                        <b>Saves:</b> Wisdom & Charisma <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>PALADIN</h2>
+                <p> A paladin swears to uphold justice and righteousness, to stand with the good things of the world against the encroaching darkness, and to hunt the forces of evil wherever they lurk. Different paladins focus on various aspects of the cause of righteousness, but all are bound by the oaths that grant them power to do their sacred work. Although many paladins are devoted to gods of good, a paladin’s power comes as much from a commitment to justice itself as it does from a god.                   </p>   
+            </div>
+            <a href="#slide8"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--ROGUE.....................................................................................-->
+        <div class="placeholder8" id="slide8"></div>
+        <div class="class-slide slide8">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/rogueclass.png" class="nopad classimg"></div> 
+                    <div class="class-content">
+                        A warrior who combats threats on the edges of civilization <br><br>
+                        <b>Hit Die:</b> d8 <br>
+                        <b>Primary Ability:</b> Dexterity <br>
+                        <b>Saves:</b> Dexterity & Intelligence <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>ROGUE</h2>
+                <p>Rogues rely on skill, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party. Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them a broad expertise that few other characters can match.              </p> 
+            </div>
+            <a href="#slide9"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--SORCEROR.....................................................................................-->
+        <div class="placeholder9" id="slide9"></div>
+        <div class="class-slide slide9">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/sorceror.png"s class="nopad classimg"></div>
+                    <div class="class-content">
+                        A spellcaster who draws on inherent magic from a gift or bloodline. <br><br>
+                        <b>Hit Die:</b> d6 <br>
+                        <b>Primary Ability:</b> Charisma <br>
+                        <b>Saves:</b> Constitution & Charisma <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>SORCEROR</h2>
+                <p> Magic is a part of every sorcerer, suffusing body, mind, and spirit with a latent power that waits to be tapped. Some sorcerers wield magic that springs from an ancient bloodline infused with the magic of dragons. Others carry a raw, uncontrolled magic within them, a storm that manifests in unexpected ways. The appearance of sorcerous powers is wildly unpredictable. One can’t study sorcery as one learns a language, any more than one can learn to live a legendary life. No one chooses sorcery; the power chooses the sorcerer.                   </p>   
+            </div>
+            <a href="#slide10"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--WARLOCK.....................................................................................-->
+        <div class="placeholder10" id="slide10"></div>
+        <div class="class-slide slide10">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/warlock.png" class="nopad classimg"></div> 
+                    <div class="class-content">
+                        A wielder of magic that is derived from a bargain with an extraplanar entity. <br><br>
+                        <b>Hit Die:</b> d8 <br>
+                        <b>Primary Ability:</b> Charisma <br>
+                        <b>Saves:</b> Wisdom & Charisma <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>WARLOCK</h2>
+                <p>A warlock is defined by a pact with an otherworldly being. Sometimes the relationship between warlock and patron is like that of a cleric and a deity, though the beings that serve as patrons for warlocks are not gods. A warlock might lead a cult dedicated to a demon prince, an archdevil, or an utterly alien entity—beings. More often, though, the arrangement is similar to that between a master and an apprentice. The warlock learns and grows in power, at the cost of occasional services performed on the patron’s behalf.    </p> 
+            </div>
+            <a href="#slide11"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+        <!--WIZARD.....................................................................................-->
+        <div class="placeholder11" id="slide11"></div>
+        <div class="class-slide slide11">
+            <div class="class-img float-left">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/wizard.png"s class="nopad classimg"></div>
+                    <div class="class-content">
+                        A scholarly magic-user capable of manipulating the structures of reality. <br><br>
+                        <b>Hit Die:</b> d6 <br>
+                        <b>Primary Ability:</b> Intelligence <br>
+                        <b>Saves:</b> Intelligence & Wisdom <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-right">
+                <h2>WIZARD</h2>
+                <p> Wizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds.                   </p>   
+            </div>
+            <a href="#slide12"><img class="arrow" src="Pics/arrow.png"></a>
+        </div>
+        
+         <!--RANGER.....................................................................................-->
+        <div class="placeholder12" id="slide12"></div>
+        <div class="class-slide slide12">
+            <div class="class-img float-right">
+                <div class="class-card">
+                    <input type="checkbox" name="">
+                    <div class="class-toggle">+</div>
+                    <div class="imgBox"><img src="Pics/ranger.png" class="nopad classimg"></div> 
+                    <div class="class-content">
+                        A warrior who combats threats on the edges of civilization. <br><br>
+                        <b>Hit Die:</b> d10 <br>
+                        <b>Primary Ability:</b> Dexterity & Wisdom <br>
+                        <b>Saves:</b> Strength & Dexterity <br>
+                    </div>
+                </div>
+            </div>
+            <div class="side-explain float-left">
+                <h2>RANGER</h2>
+                <p>Warriors of the wilderness, rangers specialize in hunting the monsters that threaten the edges of civilization—humanoid raiders, rampaging beasts and monstrosities, terrible giants, and deadly dragons. They learn to track their quarry as a predator does, moving stealthily through the wilds and hiding themselves in brush and rubble. Rangers focus their combat training on techniques that are particularly useful against their specific favored foes.  </p> 
+            </div>
+        </div>
+        
+        <!--FOOTER..........-->
+        
+        <footer class="slide13">
+            <div class="iconsinfooter">
+            <a href="https://www.instagram.com/explore/tags/dnd/" target="_blank"><img src="Pics/instagram.png" alt="insta" class="icons"></a>
+            <a href="https://twitter.com/Wizards_DnD?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="Pics/twitter.png" alt="twitter" class="icons"></a>
+            <a href="https://www.youtube.com/channel/UCi-PULMg2eD_v5AO0PlW4sg" target="_blank"><img src="Pics/yt.png" alt="youtube" class="icons"></a>
+            </div>
+        </footer>
+      
+            
+<!--SCRIPT.........................................................................................-->
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+        </script>
+    </body>
+</html>
